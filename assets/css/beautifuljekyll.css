@@ -801,6 +801,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 /* --- Tables --- */
 
 table {
+  color: black;
   padding: 0;
 }
 table tr {
@@ -848,7 +849,7 @@ code {
 
 pre code {
   padding: 0;
-  background-color: #3a526b;
+  background-color: inherit;
   border-radius: 0;
 }
 
@@ -921,6 +922,7 @@ pre {
 .box-warning,
 .box-error,
 .box-success {
+  color: black;
   padding: 0.9375rem 0.9375rem 0.9375rem 0.625rem;
   margin: 1.25rem 1.25rem 1.25rem 0.3125rem;
   border: 1px solid #eee;
